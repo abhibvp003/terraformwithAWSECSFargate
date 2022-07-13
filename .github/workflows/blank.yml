@@ -39,10 +39,10 @@ jobs:
         run: java -version
 
       - name: maven version
-        run: mvn -version
+        run: mvn --version
 
       - name: python version
-        run: python -version
+        run: python --version
 
       - name: docker version
         run: docker -v
