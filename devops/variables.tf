@@ -19,10 +19,10 @@ variable "az_count" {
   default     = "2"
 }
 
-# variable "app_image" {
-#   description = "Docker image to run in ECS cluster"
-#   default     = "link of ecr"
-# }
+variable "app_image" {
+  description = "Docker image to run in ECS cluster"
+  default     = "442699351453.dkr.ecr.ap-south-1.amazonaws.com"
+}
 
 variable "app_port" {
   description = "Port exposed by the docker image to redirect traffic to"
